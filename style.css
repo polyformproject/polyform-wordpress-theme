@@ -390,6 +390,16 @@ body > footer {
   text-align: left;
 }
 
+body > nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+body > nav ul li {
+  display: inline-block;
+}
+
 body > footer {
   border-top: 1px solid black;
   margin-top: 5rem;
