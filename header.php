@@ -15,6 +15,7 @@
         <li><a href=/>Home</a></li>
         <li><a href=/licenses>Licenses</a></li>
         <li><a href=https://github.com/polyform-project>GitHub</a></li>
+        <li><a href="<?php bloginfo('rss2_url'); ?>">RSS</a></li>
       </ul>
     </nav>
     <main role=main>
