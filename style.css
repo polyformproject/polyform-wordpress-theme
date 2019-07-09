@@ -390,6 +390,11 @@ body > footer {
   text-align: left;
 }
 
+body > header {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
 body > nav ul {
   list-style-type: none;
   margin: 0;
