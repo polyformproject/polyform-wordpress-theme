@@ -5,9 +5,10 @@
     <?php the_archive_description('<p>', '</p>'); ?>
   </header>
 
-  <?php while(have_posts()): ?>
-    <?php the_post(); ?>
+  <?php while(have_posts()): the_post(); ?>
+    <?php the_content(); ?>
   <?php endwhile; ?>
 
-  <?php the_posts_navigation();
+  <?php the_posts_navigation(); ?>
+<?php endif; ?>
 <?php get_footer(); ?>
