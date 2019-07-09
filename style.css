@@ -460,10 +460,6 @@ tbody th, tbody td {
   padding: 0.8rem 0.5rem;
 }
 
-tbody tr:nth-child(even) {
-  background-color: #f2f2f2
-}
-
 th, th {
   text-align: left;
 }
