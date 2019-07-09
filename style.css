@@ -456,11 +456,8 @@ table {
   border-collapse: collapse;
 }
 
-tbody th, tbody td {
+th, td {
   padding: 0.8rem 0.5rem;
-}
-
-th, th {
   text-align: left;
 }
 
