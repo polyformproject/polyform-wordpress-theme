@@ -385,7 +385,7 @@ body > nav,
 body > main,
 body > footer {
   margin: 1rem auto;
-  max-width: 30rem;
+  max-width: 35rem;
   padding: 0 1rem;
   text-align: left;
 }
