@@ -8,6 +8,7 @@
   <body>
     <header role=banner>
       <img src="<?php echo get_template_directory_uri(); ?>/images/polyform.svg" alt="Polyform">
+      <p class=tagline><?php bloginfo('description'); ?></p>
     </header>
     <nav role=navigation>
       <ul>
