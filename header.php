@@ -13,7 +13,9 @@
       <ul>
         <li><a href="<?php bloginfo('url'); ?>">Home</a></li>
         <li><a href=/licenses>Licenses</a></li>
+        <?php if (wp_count_posts()->publish > 0) : ?>
         <li><a href=/posts>Posts</a></li>
+        <?php endif; ?>
         <li><a href=/contribute>Contribute</a></li>
         <li><a href="<?php bloginfo('rss2_url'); ?>">RSS</a></li>
       </ul>
