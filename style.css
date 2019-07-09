@@ -407,6 +407,7 @@ body > nav ul li {
 
 body > footer {
   border-top: 1px solid black;
+  margin-top: 2rem;
   padding-top: 1rem;
 }
 
