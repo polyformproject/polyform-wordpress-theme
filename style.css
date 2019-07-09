@@ -451,16 +451,3 @@ ul, ol {
 li > p {
   margin-bottom: 0;
 }
-
-table {
-  border-collapse: collapse;
-}
-
-th, td {
-  padding: 0.8rem 0.5rem;
-  text-align: left;
-}
-
-table, pre {
-  overflow-x: scroll;
-}
