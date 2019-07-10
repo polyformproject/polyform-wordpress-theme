@@ -451,3 +451,7 @@ ul, ol {
 li > p {
   margin-bottom: 0;
 }
+
+.dateline {
+  font-style: italic;
+}
