@@ -13,7 +13,9 @@
   <?php if (have_posts()): while(have_posts()): the_post(); ?>
     <?php if(!is_front_page()): ?>
       <h2><?php the_title(); ?></h2>
-      <p class=dateline><?php the_date(); ?></p>
+      <?php if(get_post_type() == 'post'): ?>
+        <p class=dateline><?php the_date(); ?></p>
+      <?php endif; ?>
     <?php endif; ?>
     <?php the_content(); ?>
   <?php endwhile; endif; ?>
