@@ -457,3 +457,13 @@ li > p {
 .dateline {
   font-style: italic;
 }
+
+.posts {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.posts li {
+  margin: 1rem 0;
+}
