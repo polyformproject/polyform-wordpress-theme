@@ -19,5 +19,6 @@
         <li><a href=/contribute>Contribute</a></li>
         <li><a href="<?php bloginfo('rss2_url'); ?>">RSS</a></li>
       </ul>
+      <?php wp_nav_menu(array('theme_location' => 'header-menu')); ?>
     </nav>
     <main role=main>
