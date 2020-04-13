@@ -7,7 +7,7 @@
   </head>
   <body>
     <header role=banner>
-      <img src="<?php echo get_template_directory_uri(); ?>/images/polyform.svg" alt="Polyform">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/polyform.svg" alt="PolyForm">
     </header>
     <nav role=navigation>
       <?php wp_nav_menu(array('theme_location' => 'header-menu')); ?>
